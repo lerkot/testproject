@@ -15,9 +15,20 @@
     <main>
         <article class="main">
             <h1 class="main__heading">Лента ненависти</h1>
-            <p class="main__lead">Cервис для составления вселенской ленты ненависти для всех. Любой может добавлять неограниченное количество ненавистных ему вещей и делиться с другими. Один раз оставив сообщение, его нельзя удалить или отредактировать</p>
+            <p class="main__lead">Cервис для составления вселенской ленты
+                ненависти для всех. Любой может добавлять неограниченное
+                количество ненавистных ему вещей и делиться с другими. Один раз
+                оставив сообщение, его нельзя удалить или отредактировать</p>
             <p class="main__lead-desc">Максимум 200 символов</p>
-            <form action="" method="post"></form>
+            <form class="user-form" action="" method="post">
+                <label for="text-filed"
+                    class="user-form__label visually-hidden">Поле для вашего
+                    комментария</label>
+                <textarea class="user-form__field" maxlength="200" autofocus
+                    placeholder="Я ненавижу..." id="text-field">
+                </textarea>
+                <button class="user-form__submit" type="submit">Отправить</button>
+            </form>
         </article>
     </main>
 </body>
