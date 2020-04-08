@@ -1,3 +1,16 @@
-.user-block {
-  color: red;
+.container {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-left: 2%;
+  padding-right: 2%;
+
+  @media (min-width: @breakpoint-tablet) {
+    max-width: 728px;
+    box-sizing: border-box;
+  }
+
+  @media (min-width: @breakpoint-desktop) {
+    max-width: 760px;
+    box-sizing: border-box;
+  }
 }

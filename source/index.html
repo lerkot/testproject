@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="description"
     content="Поделись своей ненавистью – сделай мир хуже!">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Лента ненависти</title>
   <link href="./css/style.min.css" rel="stylesheet">
 
@@ -23,9 +24,8 @@
         <label for="text-field" class="user-block__label visually-hidden">Поле
           для вашего
           комментария</label>
-        <textarea class="user-block__field" maxlength="200" autofocus
+        <input type="text" class="user-block__field" maxlength="200" autofocus
           placeholder="Я ненавижу..." id="text-field">
-                </textarea>
         <button class="user-block__submit" type="submit">Отправить</button>
       </form>
     </article>
